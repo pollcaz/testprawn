@@ -21,6 +21,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'twitter-bootstrap-rails'
+gem 'simple_form'
 gem 'prawn'
 
 # To use ActiveModel has_secure_password

@@ -1,0 +1,11 @@
+<%= simple_form_for @order, :html => { :class => 'form-horizontal' } do |f| %>
+  <%= f.input :product %>
+  <%= f.input :quantity %>
+  <%= f.input :unitprice %>
+  <%= f.input :fullprice %>
+  <div class="form-actions">
+    <%= f.button :submit, :class => 'btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                orders_path, :class => 'btn' %>
+  </div>
+<% end %>

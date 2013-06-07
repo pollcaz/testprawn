@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  product: MyString
+  quantity: 1
+  unitprice: 1.5
+  fullprice: 1.5
+
+two:
+  product: MyString
+  quantity: 1
+  unitprice: 1.5
+  fullprice: 1.5

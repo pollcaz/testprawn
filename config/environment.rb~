@@ -1,6 +1,6 @@
 # Load the rails application
 require File.expand_path('../application', __FILE__)
-#config.load_paths << "#{RAILS_ROOT}/app/reports"
+config.load_paths << "#{RAILS_ROOT}/app/reports"
 # Initialize the rails application
 Testprawn::Application.initialize!
 

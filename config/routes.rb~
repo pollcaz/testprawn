@@ -1,5 +1,5 @@
 Testprawn::Application.routes.draw do
-  resources :orders #, only: [:index]
+  resources :orders, only: [:index]
 
   #get 'orders/listorders', to: 'orders#listorders'
   # The priority is based upon order of creation:
