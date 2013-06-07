@@ -1,6 +1,10 @@
  Prawn en Rails3x
  
  A continuación este proyecto permite saber como utilizar la gema prawn en rails3 ver= 3.2.12
+ cibergrafia: 
+ https://github.com/prawnpdf/prawn/wiki/Using-Prawn-in-Rails-3
+ http://blog.idyllic-software.com/blog/bid/204082/Creating-PDF-using-Prawn-in-Ruby-on-Rails
+ 
  
 1-lo primero es instalar la gema de prawn para esto la adicionas a tu Gemfile y posterior ejecutas el comando de instalación de las gemas del proyecto así:
 
